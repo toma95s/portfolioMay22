@@ -62,24 +62,51 @@ a:link, a:visited {
     color: var(--black);
 }
 
-/* set flex-box in row  */
+
 .section-container{
     display:flex; 
 }
 
-/*main section title style*/
+
 .sectionTitle{
     color:black;
     font-size:30px ;
     text-align: right;
     margin-right: 16px;
     padding: 16px;
-    border-right: 3px solid var(--yellow);;
+    border-right: 3px solid var(--teal-8);;
     width: 20%;
 }
-/*header navigate bar style*/
+
 .text-right a {
     color: var(--white);
      text-decoration: none; 
+}
+
+/* set background picture in css instead of html*/
+#backgroud{
+    height: 800px;
+    width: 100%;
+    background-image: url("../assets/images/calm\ waters.jpeg"); alt:"background";
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* set profie photo */
+.profileImage {
+    background-image: url('../assets/images/asika.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 15%;
+    left: 50px;
+}
+/* project image */
+.link-color{
+    color:black;
+    padding-left:7px;
 }
 
