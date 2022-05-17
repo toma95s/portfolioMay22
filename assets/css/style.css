@@ -87,7 +87,7 @@ a:link, a:visited {
 #backgroud{
     height: 800px;
     width: 100%;
-    background-image: url("../assets/images/calm\ waters.jpeg"); alt:"background";
+    background-image: url('../images/calmwaters.jpeg'); alt:"background";
     background-size: cover;
     background-position: center;
     position: relative;
@@ -164,3 +164,93 @@ a:link, a:visited {
     opacity:0.7;
 }
 
+.space-right{
+    margin-right:5px;
+}
+.space-left{
+    margin-left: 5px;
+}
+/* when mouse move to each project picture, the picture getting bigger */
+.container:hover, .projectImage1:hover, .linkImage:hover {
+    border:  8px solid var(--yellow);
+    opacity: 1;
+}
+.footer-space {
+    margin-bottom: 48px;
+}
+.content-wrapper {
+    width: 80%;
+    padding: 24px 16px;
+}
+.contact-links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: var(--black);
+    list-style-type: none;
+    font-size: 25px;
+    font-family: var(--text);
+}
+.contact-links-wrapper li {
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.contact-links-wrapper a:hover{
+    color: blue;
+}
+ .phone{
+    color: var(--black);
+    text-decoration: underline; 
+    font-size: 25px;
+    font-family: var(--text);
+}
+/* responsive funtion, when the web page smaller than 768px, the layout will adapt to the viewpoint */
+@media screen and (max-width: 1200px) {
+    .link-images-wrapper-md {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container {
+        width: 100%;
+    }
+    .container img {
+        height: 300px;
+    }
+    .contact-links-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact-links-wrapper li {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .project-name,
+    .contact-link{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionTitle {
+        color: black;
+        font-size: 30px;
+        text-align: left;
+        margin-right: 16px;
+        padding: 16px;
+        border-bottom: 3px solid var(--yellow);
+        width: 100%;
+    }
+    .content-wrapper {
+        width: 100%;
+        padding: 24px 24px;
+    }
+  }
