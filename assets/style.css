@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --yellow: #13a2b5;
+    --teal-8: #1adcdccc;
+    --white:#ffffff;
+    --lightgrey:#d9dcd6;
+    --border-radius:5px;
+    --text:"Ariel",sans-serif;
+    --black:black;
+    
+}
+body {
+    background-color: var(--lightgrey);
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  var(--teal-8);
+    color: var(--white);
+    
+}
