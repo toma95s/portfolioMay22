@@ -16,6 +16,12 @@ https://toma95s.github.io/portfolioMay22/
 <img width="40" alt="badge3" src="https://img.shields.io/badge/-HTML-red"> 
 
 
+# Deployed Screenshot
+
+<img width="1264" alt="Screen Shot 2022-05-16 at 11 46 52 PM" src="https://user-images.githubusercontent.com/101033224/168746661-4c1d5814-7765-4670-93a2-9abd932029ce.png">
+
+
+
 # Code Snippet
 
 Here you can see that the resume was added to the code.
