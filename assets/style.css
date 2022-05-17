@@ -83,7 +83,7 @@ a:link, a:visited {
      text-decoration: none; 
 }
 
-/* set background picture in css instead of html*/
+
 #backgroud{
     height: 800px;
     width: 100%;
@@ -93,7 +93,7 @@ a:link, a:visited {
     position: relative;
 }
 
-/* set profie photo */
+
 .profileImage {
     background-image: url('../assets/images/asika.jpeg');
     background-position: center;
@@ -104,7 +104,7 @@ a:link, a:visited {
     top: 15%;
     left: 50px;
 }
-/* project image */
+
 .link-color{
     color:black;
     padding-left:7px;
