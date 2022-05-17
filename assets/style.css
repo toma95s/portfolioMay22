@@ -110,3 +110,57 @@ a:link, a:visited {
     padding-left:7px;
 }
 
+
+.text-block {
+    position: absolute;
+    background-color: var(--teal-8);
+    color: var(--black);
+    bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    z-index: 100;
+    cursor:pointer;
+}
+.insidelink {
+    font-size: 12px;
+}
+.text-block:hover {
+    border: 3px solid lightblue;
+}
+
+/*project image styling */
+.link-image-wrapper-lg {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.main-image-link {
+    width: 100%;
+}
+.projectImage1 {
+    border:solid var(--yellow) 2px;
+    border-radius: var(--border-radius);
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    opacity: 0.7;
+}
+.link-images-wrapper-md {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    position: relative;
+    font-family: Arial;
+    width: calc(50% - 1rem);
+}
+.linkImage{
+    border-radius: var(--border-radius);
+    border:solid var(--yellow) 2px;
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    opacity:0.7;
+}
+
